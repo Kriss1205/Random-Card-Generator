@@ -1,1 +1,69 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #0e7e12;
+  box-sizing: border-box;
+}
+
+strong {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card {
+  display: center;
+  background: white;
+  margin: auto;
+  height: 350px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  position: relative;
+  padding-top: 180px;
+  font-size: 50px;
+}
+
+.card-value-suit {
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+}
+.card-value-suit.top {
+  top: 5px;
+  left: 5px;
+}
+.card-value-suit.bot {
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 5px;
+}
+.card-suit {
+  font-size: 200px;
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+  left: 27%;
+}
+
+.card.spades,
+.card.clubs {
+  color: black;
+}
+.card.hearts,
+.card.diamonds {
+  color: red;
+}
+
+.btn {
+  background: rgb(97, 4, 4);
+  position: absolute;
+  top: 425px;
+  left: 45%;
+  border-radius: 5px;
+  width: 10%;
+  height: auto;
+}
+
+.btn:hover {
+  background: rgb(39, 92, 144);
+}
