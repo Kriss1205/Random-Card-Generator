@@ -1,3 +1,5 @@
+Check out my Card Gen.!
+## https://github.com/Kriss1205/Random-Card-Generator.git
 # Hello World with Vanilla JS
 
 Start coding in 30 seconds by opening this template in gitpod:
